@@ -11,16 +11,17 @@
     <link rel="preconnect" href="//cdnjs.cloudflare.com">
 
     <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Biryani:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Biryani:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+    <!-- header -->
     <header>
         <div class="page-container">
+
             <div id="header">
-                <div class="header-wrap">
+                <div class="header-wrap d-flex align-items-center">
                     <div class="header-left">
                         <div class="logo p-10">
                             <a href="">
@@ -39,25 +40,25 @@
                         </div>
                        
                     </div>
-                    <div class="header-right p-10">
+                    <div class="header-right d-flex flex-wrap  p-10">
 
                         <div class="menu-wrapper">
                             <nav id="menu">
-                                <ul class="menu-list" >
+                                <ul class="menu-list d-flex" >
                                     <li class="menu-item ">
-                                        <a href="" aria-current="page" class="active">Home</a>
+                                        <a href="" aria-current="page" class="active d-flex align-items-center">Home</a>
                                     </li>
                                     <li class="menu-item ">
-                                        <a href="" class="">Studio</a>
+                                        <a href="" class=" d-flex align-items-center">Studio</a>
                                     </li>
                                     <li class="menu-item ">
-                                        <a href="" class="">Portfolio</a>
+                                        <a href="" class=" d-flex align-items-center">Portfolio</a>
                                     </li>
                                     <li class="menu-item ">
-                                        <a href="" class="">Team</a>
+                                        <a href="" class=" d-flex align-items-center">Team</a>
                                     </li>
                                     <li class="menu-item ">
-                                        <a href="" class="">Contact</a>
+                                        <a href="" class=" d-flex align-items-center">Contact</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -67,22 +68,22 @@
                                 <span></span>
                             </div>
                             <div id="menu-mb">
-                                <nav id="menu">
+                                <nav >
                                     <ul class="menu-list menu-list-mb" >
                                         <li class="menu-item ">
-                                            <a href="" aria-current="page" class="active">Home</a>
+                                            <a href="" aria-current="page" class="active d-flex align-items-center ">Home</a>
                                         </li>
                                         <li class="menu-item ">
-                                            <a href="" class="">Studio</a>
+                                            <a href="" class=" d-flex align-items-center ">Studio</a>
                                         </li>
                                         <li class="menu-item ">
-                                            <a href="" class="">Portfolio</a>
+                                            <a href="" class=" d-flex align-items-center ">Portfolio</a>
                                         </li>
                                         <li class="menu-item ">
-                                            <a href="" class="">Team</a>
+                                            <a href="" class=" d-flex align-items-center ">Team</a>
                                         </li>
                                         <li class="menu-item ">
-                                            <a href="" class="">Contact</a>
+                                            <a href="" class=" d-flex align-items-center ">Contact</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -90,30 +91,50 @@
                         </div>
                        
                         <div class="header-social">
-                            <ul>
-                                <li>
+                            <ul class="d-flex flex-wrap ">
+                                <li class="d-flex justify-content-center">
                                     <a href="javascript:;">
-                                        <i class="fab fa-twitter"></i>
+                                        <span class="icons">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/>
+                                            </svg>
+                                        </span>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="d-flex justify-content-center">
                                     <a href="javascript:;">
-                                        <i class="fab fa-twitter"></i>
+                                        <span class="icons">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/>
+                                            </svg>
+                                        </span>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="d-flex justify-content-center">
                                     <a href="javascript:;">
-                                        <i class="fab fa-twitter"></i>
+                                        <span class="icons">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/>
+                                            </svg>
+                                        </span>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="d-flex justify-content-center">
                                     <a href="javascript:;">
-                                        <i class="fab fa-twitter"></i>
+                                        <span class="icons">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                <path d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"/>
+                                            </svg>
+                                        </span>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="d-flex justify-content-center">
                                     <a href="javascript:;">
-                                        <i class="fab fa-twitter"></i>
+                                        <span class="icons">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                <path d="M0 32v448h448V32H0zm372.2 106.1l-24 23c-2.1 1.6-3.1 4.2-2.7 6.7v169.3c-.4 2.6.6 5.2 2.7 6.7l23.5 23v5.1h-118V367l24.3-23.6c2.4-2.4 2.4-3.1 2.4-6.7V199.8l-67.6 171.6h-9.1L125 199.8v115c-.7 4.8 1 9.7 4.4 13.2l31.6 38.3v5.1H71.2v-5.1l31.6-38.3c3.4-3.5 4.9-8.4 4.1-13.2v-133c.4-3.7-1-7.3-3.8-9.8L75 138.1V133h87.3l67.4 148L289 133.1h83.2v5z"/>
+                                            </svg>
+                                        </span>
                                     </a>
                                 </li>
                             </ul>
@@ -121,14 +142,204 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </header>
 
+    <!-- end header -->
+    <main class="main-content"> 
+       
+        <section class="home-big-text d-flex align-items-center">
+            <div class="page-container">
+                <h2 class="title p-10">
+                    We create and fund <br>transformative blockchain <br>companies.
+                </h2>
+            </div>
+        </section>
 
+        <section class="home-big-desc">
+            <div class="page-container">
+                <div class="home-big-desc-content d-flex flex-wrap">
+                    <div class="content-1 p-10">
+                        <div class="content">
+                            Master Ventures is a blockchain focused <strong>Venture Studio</strong> building the next generation of infrastructure companies to drive blockchain adoption. We bring together visionary ideas, exceptional talent, and investment capital to build world-changing companies.
+                        </div>
+                    </div>
+                    <div class="content-2 p-10">
+                        <div class="mt-50 mb-50 text-center">
+                            <img src="images/labs.png" alt="">
+                        </div>
+                    </div>
+                    <div class="content-3">
+                        <div class="d-flex flex-wrap">
+                            <div class="col-6">
+                                <div class="p-10 small-content">
+                                    <h3 class="title">
+                                        Dream it. 
+                                    </h3>
+                                    <p class="desc">
+                                        It all begins with an idea. MV Labs co-creates disruptive blockchain companies with founders, startups, and enterprises from around the globe.  We come in as your perfect co-founders to scale up ideas.
+                                    </p>
+                                    <p class="actions text-center">
+                                    <a href="" class="">
+                                        <span class="actions-wrapper">
+                                            <span class="text">Studio</span>
+                                        </span>
+                                    </a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="p-10 small-content">
+                                    <h3 class="title">
+                                        Deploy it.
+                                    </h3>
+                                    <p class="desc">
+                                        Master Ventures believes in radically transforming the way our species operates with blockchain technology. We deploy human and financial capital on leading startups that align with this vision.
+                                    </p>
+                                    <p class="actions text-center">
+                                    <a href="" class="">
+                                        <span class="actions-wrapper">
+                                            <span class="text">Portfolio</span>
+                                        </span>
+                                    </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
+    <!-- footer -->
 
-    <script src="js/wow.min.js">
+    <footer>
+        <div class="page-container">
+            <div id="footer">
+                <div class="footer-col">
+                    <div class="footer-left p-10">
+                        <div class="footer-left-wrap">
 
+                            <div class="footer-links">
+                                <nav>
+                                    <ul>
+                                        <li>
+                                            <a href="" class="active">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="">Studio</a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="">Portfolio</a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="">Team</a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="">Contact</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <form class="subscribe-form" method="post" >
+                    
+                        <div class="form-wrap">
+                            <div class="form-input">
+                                <input size="1" type="email" name="subsribe[email]" id="email-subscribe" class="" placeholder="Email Address" required="required" aria-required="true" />
+                            </div>
+                            <div class="form-buttons">
+                                <button type="submit" class="">
+                                    <span>
+                                        <span class="elementor-button-text">Sign Up</span>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    
+                </div>
+                <div class="footer-col footer-col-full">
+                    
+                    <div class="footer-social">
+                        <ul>
+                            <li>
+                                <a href="javascript:;" class="ic-twitter">
+                                    <span class="icons">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" class="ic-linknd">
+                                    <span class="icons">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" class="ic-youtube">
+                                    <span class="icons">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                            <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" class="ic-telegram">
+                                    <span class="icons">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"/>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" class="ic-medium">
+                                    <span class="icons">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path d="M0 32v448h448V32H0zm372.2 106.1l-24 23c-2.1 1.6-3.1 4.2-2.7 6.7v169.3c-.4 2.6.6 5.2 2.7 6.7l23.5 23v5.1h-118V367l24.3-23.6c2.4-2.4 2.4-3.1 2.4-6.7V199.8l-67.6 171.6h-9.1L125 199.8v115c-.7 4.8 1 9.7 4.4 13.2l31.6 38.3v5.1H71.2v-5.1l31.6-38.3c3.4-3.5 4.9-8.4 4.1-13.2v-133c.4-3.7-1-7.3-3.8-9.8L75 138.1V133h87.3l67.4 148L289 133.1h83.2v5z"/>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- end footer-->
+    <script>
+        (function() {
+            var hamburger = {
+                ham: document.getElementById('hamburger'),
+                mbmenu: document.getElementById('menu-mb'),
+                doToggle: function(e) {
+                    e.preventDefault();
+                    this.ham.classList.toggle('opened');
+                    this.mbmenu.classList.toggle('opened');
+                }
+            };
+            hamburger.ham.addEventListener('click', function(e) {
+                hamburger.doToggle(e);
+            });
+            hamburger.mbmenu.addEventListener('click', function(e) {
+                hamburger.doToggle(e);
+            });
+        }());
     </script>
 </body>
 </html>
