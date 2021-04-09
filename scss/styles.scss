@@ -22,9 +22,6 @@ body {
 .mb-50 {
     margin-bottom: 50px;
 }
-.text-center{
-    text-align: center;
-}
 img {
     display: inline-block;
     vertical-align: middle;
@@ -49,29 +46,17 @@ a {
     }
 
 }
-.col-4-custom {
-    flex: 0 0 32.672%;
-    max-width: 32.672%;
-}
 /* header */
 
 .header-wrap {
-    flex-direction: row;
     min-height: 120px;
     .logo {
         img {
             width: 170px;
         }
     }
-    .header-right {
-        align-content: flex-start;
-        justify-content: flex-end;
-        flex-direction: row;
-    }
-
     .header-social {
         margin: 0px 0px 0px 25px;
-        justify-content: center;
         span.icons {
             display: inline-block;
             height: 21px;
@@ -112,9 +97,6 @@ a {
 /* menu */
 #menu {
     ul {
-        flex-direction: row;
-        margin-left: auto;
-        justify-content: flex-end;
         li:not(:last-child){
             margin-right: 2px;
         }
@@ -222,14 +204,8 @@ a {
     }
 }
 .home-big-desc {
-    .home-big-desc-content {
-        flex-direction: row; 
-        
-        & > div {
-            flex : 0 0 100%;
-            max-width: 100%;
-        }
-    }
+    color: #FFFFFF;
+    font-family: "Biryani", Serif;
     .content-1 {
         .content {
             font-family: "Biryani", Serif;
@@ -241,8 +217,7 @@ a {
         max-width: 270px;
     }
     .small-content {
-        color: #FFFFFF;
-        font-family: "Biryani", Serif;
+
         h3 {
             font-size: 4rem;
             text-shadow: 0px 0px 0px rgba(255,255,255,0.98);
@@ -282,16 +257,7 @@ a {
     .spinouts-list  {
         padding: 34px 0px 73px 0px;
     }
-    .spinouts-item {
-        display: flex;
-        align-items: stretch;
-        justify-content: center;
-        height: 100%;
-        .spinouts-img {
-            display: flex;
-            align-items: center;
-        }
-    }
+
 }
 .network {
     margin-top: 100px;
@@ -306,14 +272,7 @@ a {
         margin : 0 0 58px 0 ; 
     }
     .network-item {
-        display: flex;
-        align-items: stretch;
-        justify-content: center;
         height: 100%;
-        .network-img {
-            display: flex;
-            align-items: center;
-        }
     }
     .gsdv{
         max-width: 70%;
@@ -375,19 +334,7 @@ a {
 
 /* footer */
 #footer {
-    display: flex;
-    flex-direction: row;
-    
-    flex-wrap: wrap;
     padding: 85px 0px 60px 0px;
-    .footer-col {
-        flex : 0 0 50%;
-        max-width: 50%;
-        &.footer-col-full {
-            flex : 0 0 100%;
-            max-width: 100%;
-        }
-    }
     .footer-left-wrap {
         margin-left: 20px; 
         display: flex;
@@ -396,9 +343,6 @@ a {
             flex : 0 0  13%;
             max-width: 13%;
             a {
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
                 font-family: "Biryani", Serif;
                 font-size: 1.9rem;
                 letter-spacing: -0.1px;
@@ -418,17 +362,10 @@ a {
        
     }
     .subscribe-form {
-        display: flex;
-        align-items: center;
         height: 100%;
         .form-wrap {
-            display: flex;
-            flex-wrap: wrap;
-            width: 100%;
             margin: 0 -5px ; 
             .form-input {
-                flex : 0 0 66.666% ; 
-                max-width: 66.666%;
                 margin-bottom: 10px;
                 padding-right: 5px;
                 padding-left: 5px;
@@ -452,14 +389,10 @@ a {
                 }
             }
             .form-buttons {
-                flex : 0 0 33.333% ;
-                max-width: 33.333%;
                 margin-bottom: 10px; 
                 padding-right: 5px;
                 padding-left: 5px;
                 button {
-                    display: inline-block;
-                    width: 100%;
                     outline : none;
                     border: none; 
                     background-color: #FB7803FA;
@@ -480,8 +413,6 @@ a {
     } 
     .footer-social {
         padding: 26px 0px 0px 0px;
-        display: flex;
-        justify-content: flex-start;
         span.icons {
             display: inline-block;
             height: 21px;
@@ -495,13 +426,8 @@ a {
             }
         }
         ul {
-            display: flex;
             overflow: hidden;
-            flex-wrap: wrap;
             li {
-                display: flex;
-                align-items: center;
-                
                 margin: 0 2.5px;
                 margin-top: 0 ; 
             }
@@ -509,9 +435,6 @@ a {
                 padding: 10.5px;
                 text-align: center;
                 cursor: pointer;
-                display: flex;
-                align-items: center;
-                justify-content: center;
                 transition: all .3s;
                 border-radius: 10%;
                 &.ic-twitter{
@@ -682,27 +605,6 @@ a {
         max-width: 945px;
         margin: 0 auto ; 
     }
-    .member-list {
-        justify-content: center;
-        .core-member {
-            flex: 0 0 100%;
-            max-width: 100%;
-            .member-info {
-                flex : 0 0 35%;
-                max-width: 35%;
-            }
-            .member-content {
-                flex : 0 0 65%;
-                max-width: 65%;
-            }
-        }
-        .normal-member {
-            flex : 0 0 33.333%;
-            max-width: 33.333% ;
-            margin-top: 15px;
-            margin-bottom: 15px;
-        }
-    }
     .member-info {
         padding: 10px;
         .member-img {
@@ -716,9 +618,6 @@ a {
             }
         }
         .member-name {
-            display: inline-block;
-            width: 100%;
-            text-align: center;
             margin-bottom: 20px;
             a {
                 color: #FFFFFF;
@@ -729,9 +628,6 @@ a {
             }
         }
         .member-status{
-            display: inline-block;
-            width: 100%;
-            text-align: center;
             margin-bottom: 20px;
             span {
                 font-family: "Biryani", Serif;
@@ -887,9 +783,6 @@ a {
     .protfolio-image , .client-image {
         padding: 10px;
         margin-bottom: 15px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         height: 100%;
     }
     .protfolio-image img {
@@ -944,8 +837,6 @@ a {
                 min-height: 40px;
             }
             .contact-field-group {
-                display: inline-block;
-                width: 100%;
                 padding-right: 30px;
                 padding-left: 30px;
                 margin-bottom: 17px;
@@ -1008,32 +899,16 @@ a {
         }
     }
     #footer {
-        .order-sm-1 {
-            order: 1 ; 
-        }
-        .footer-col {
-            flex: 0 0 100%;
-            max-width: 100%;
-        }
         .footer-left-wrap {
             margin-left: 0;
             .footer-links {
-                flex: 0 0 100%;
-                max-width: 100%;
                 a {
                     font-size: 1.6rem;
                 }
             }
         }
-        .footer-social {
-            justify-content: center;
-        }
         .subscribe-form {
             padding: 70px 0;
-            .form-wrap .form-input , .form-wrap .form-buttons {
-                flex : 0 0 100%;
-                max-width: 100%;
-            }
         }
     }
     .home-big-text {
@@ -1067,24 +942,7 @@ a {
     }
     .network  {
         margin: 50px 0 ; 
-       
-        .col-sm-12 {
-            flex: 0 0 100%;
-            max-width: 100%;
-        }
-        .col-sm-12 {
-            a {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: 100%;
-            }
-        }
         .network-item {
-            .network-img  {
-                width: 100%;
-                justify-content: center;
-            }
             .binarystar{
                 max-width: 55%;
             }
@@ -1151,9 +1009,14 @@ a {
     .team-members .member-list .core-member .member-content , 
     .team-members .member-list .member-info ,
     .team-members .member-list .normal-member{
-        flex: 0 0 100%;
-        max-width: 100%;
         margin: 0;
+    }
+    .team-members .member-content .twitter-feed-item-header ,
+    .team-members .member-content .twitter-feed-item-content{
+        padding: 10px ; 
+    }
+    .team-members .member-content .twitter-feed-item-header .twitter-feed-item-date {
+        margin-right: 0;
     }
     .contact-us h1.title {
         font-size : 1.9rem ; 
@@ -1161,13 +1024,6 @@ a {
     .contact-us .form-contact-wrapper .contact-form {
         margin: 20px 0 ;
         padding: 0;
-    }
-    .client-wrapper .col-4 , 
-    .client-wrapper .col-6 ,
-    .protfolio-wrapper .col-4,
-    .protfolio-wrapper .col-3 {
-        flex : 0 0 100% ; 
-        max-width: 100%;
     }
 }
 @media (min-width: 768px) {
